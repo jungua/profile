@@ -1,0 +1,111 @@
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 여성결혼대상자는 무료, 문의 1522-3379">
+<meta name="keywords" content="결혼, 재혼, 결혼어플, 소개팅어플, 소개팅">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+<title>여보야</title>
+<link href="css/webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="css/write.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+  $(document).ready(function(){
+	$(".type_01").mCustomScrollbar();
+	$(".card_div").mCustomScrollbar();
+    $(".box_slct ul").mCustomScrollbar()
+  
+});
+    
+ $(function(){
+     
+    $(".btn_floating").click(function(){
+        $(".bg_float_modal").css("display","block");
+        $(".wrap_float").toggleClass("wrap_float_on");        
+    })
+    
+    $(".map_slct .slct_01 a").click(function(){
+        $(this).toggleClass("slct_on");   
+        $(".box_slct_01").toggleClass("hidden");
+    })
+    
+    $(".map_slct .slct_02 a").click(function(){
+        $(this).toggleClass("slct_on");  
+        $(".box_slct_02").toggleClass("hidden");
+    })
+    
+    $(".map_slct .slct_03 a").click(function(){
+        $(this).toggleClass("slct_on"); 
+        $(".box_slct_03").toggleClass("hidden");
+    })
+    
+    $(".map_slct .slct_04 a").click(function(){
+        $(this).toggleClass("slct_on");  
+        $(".wrap_filter").toggleClass("hidden");
+    })
+    
+    $(".slct_array").click(function(){
+        $(this).toggleClass("slct_array_on");  
+        $(".box_array").toggleClass("hidden");
+    })
+
+ });
+</script>
+</head>
+<body>
+<div class="profile_pop_wrap">
+    <!-- 일감2183_레이어 모달-->
+    <div class="profile_modal"></div>
+    <!-- // 일감2183_레이어 모달-->
+    <!-- 키,몸무게,혈액형 -->
+    <div class="pf_layer narrow_wrap mgt_194">
+        <div class="pf_header">
+            <h4 class="pf_layer_title">배우자로서 나는 몇 점인가요?</h4>
+            <div class="pf_layer_clse">
+                <a href="#">
+                    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/profile/slct_close.png">
+                </a>
+            </div>
+        </div>
+        <div class="pf_slct_wrap">
+            <div class="picker_content">
+                <div class="picker_inner">
+                    <div class="wheel_border border_07"></div>
+                    <div class="wheel_border border_08"></div>
+                    <ul class="score_list"> 
+                        <li class="wheel_txt">40점</li>
+                        <li class="wheel_txt">41점</li>
+                        <li class="wheel_active">42점</li>
+                        <!--
+                            값이 그 위치에 선택된 경우 class: wheel_active로 변환
+                         --> 
+                        <li class="wheel_txt">43점</li>
+                        <li class="wheel_txt">44점</li>
+                        <li class="wheel_txt">45점</li>
+                        <li class="wheel_txt">46점</li>
+                        <li class="wheel_txt">47점</li>
+                        <li class="wheel_txt">48점</li>
+                        <li class="wheel_txt">49점</li>
+                        <li class="wheel_txt">50점</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="finish_wheel">
+                <a href="#">확인</a>
+            </div>
+        </div>
+    </div>
+    <!-- //키,몸무게,혈액형 -->
+</div>
+</body>
+</html>
